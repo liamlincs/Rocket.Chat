@@ -1,4 +1,25 @@
 
+# 3.0.2
+`2020-02-20  ·  3 🐛  ·  4 👩‍💻👨‍💻`
+
+### Engine versions
+- Node: `12.14.0`
+- NPM: `6.13.4`
+- MongoDB: `3.4, 3.6, 4.0`
+
+### 🐛 Bug fixes
+
+- Omnichannel Inquiry queues when removing chats ([#16603](https://github.com/RocketChat/Rocket.Chat/pull/16603))
+- users.info endpoint not handling the error if the user does not exist ([#16495](https://github.com/RocketChat/Rocket.Chat/pull/16495))
+- Clear unread red line when the ESC key is pressed  ([#16668](https://github.com/RocketChat/Rocket.Chat/pull/16668))
+
+### 👩‍💻👨‍💻 Core Team 🤓
+
+- [@MarcosSpessatto](https://github.com/MarcosSpessatto)
+- [@ggazzo](https://github.com/ggazzo)
+- [@renatobecker](https://github.com/renatobecker)
+- [@sampaiodiego](https://github.com/sampaiodiego)
+
 # 3.0.1
 `2020-02-19  ·  7 🐛  ·  4 👩‍💻👨‍💻`
 
