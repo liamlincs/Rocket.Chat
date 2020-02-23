@@ -16,7 +16,8 @@ const maxTimes = {
 	d: 0,
 };
 
-const toDays = (d) => d * 1000 * 60 * 60 * 24;
+// const toDays = (d) => d * 1000 * 60 * 60 * 24;
+const toDays = (d) => d * 1000 * 60;
 
 function job() {
 	const now = new Date();
@@ -55,7 +56,8 @@ function job() {
 function getSchedule(precision) {
 	switch (precision) {
 		case '0':
-			return '0 */30 * * * *'; // 30 minutes
+			// return '0 */30 * * * *'; // 30 minutes
+			return '0 */1 * * * *'; // 1 minutes
 		case '1':
 			return '0 0 * * * *'; // hour
 		case '2':
